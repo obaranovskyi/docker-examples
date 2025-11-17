@@ -1,4 +1,5 @@
 docker run \
+  --platform linux/amd64 \
   -e "ACCEPT_EULA=Y" \
   -e "SA_PASSWORD=YourStrong!Passw0rd" \
   -p 1433:1433 \
