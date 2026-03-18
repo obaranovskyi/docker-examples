@@ -1,5 +1,4 @@
 node_modules
 */node_modules
 mssql/mssql-data/
-# n8n-data
-n8n-data-temp
+n8n-data
