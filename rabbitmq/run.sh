@@ -1,6 +1,10 @@
 docker run \
   -d \
+  --name rabbit \
+  --hostname rabbit \
   -p 5672:5672 \
-  --hostname my-rabbit \
-  --name some-rabbit \
-  rabbitmq
+  -p 15672:15672 \
+  rabbitmq:3-management
+
+# User: guest
+# Password: guest
